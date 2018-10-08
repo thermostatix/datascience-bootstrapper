@@ -25,14 +25,14 @@ If things went according to plan, a browser window may appear with a nice dark-t
 
 ### How do I stop this madness?
 Go back to your terminal window and hit Ctrl-C (or Cmd-C on MacOS). That stops the Notebook server. 
-But before going there you might want to close the browser tab / window with the Notebook running as well...
+But before going there you might want to close the browser tab  window with the Notebook running as well...
 
 Continuing your work to save the world? Simply open up a terminal window again, run the following in sequence:
 (assuming you did NOT provide an alternative name for your virtual environment)
 
 
 ```
-. venv/bin/activate
+. venvbinactivate
 jupyter notebook <notebook-name>
 ```
 
