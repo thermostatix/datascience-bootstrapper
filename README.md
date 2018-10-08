@@ -11,7 +11,7 @@ It's really simple, just clone the repo, then open up a terminal and run
 . bootstrap.sh <environment-name>
 ``` 
 
-where <environment-name> is the name of your virtual environment, and is optional. venv is used
+where \<environment-name\> is the name of your virtual environment, and is optional. venv is used
 when no name is provided.
 
 If things went according to plan, a browser window may appear with a nice dark-themed Jupyter Notebook.
@@ -28,7 +28,6 @@ Go back to your terminal window and hit Ctrl-C (or Cmd-C on MacOS). That stops t
 But before going there you might want to close the browser tab / window with the Notebook running as well...
 
 Continuing your work to save the world? Simply open up a terminal window again, run the following in sequence:
-
 (assuming you did NOT provide an alternative name for your virtual environment)
 
 
@@ -37,7 +36,7 @@ Continuing your work to save the world? Simply open up a terminal window again, 
 jupyter notebook <notebook-name>
 ```
 
-where <notebook-name> is the name of your (possibly newly created) notebook.
+where \<notebook-name\> is the name of your (possibly newly created) notebook.
 
 It can really not get simpler, but please don't hesitate to leave comments and suggestions!
 
